@@ -26,7 +26,7 @@ import CashInRequest from "../Pages/Agent/CashInRequest";
       children: [
         {
             path: "/",
-            element:  <Home/>
+            element:  <PrivateRoute><Home/></PrivateRoute>
         },
 
         {

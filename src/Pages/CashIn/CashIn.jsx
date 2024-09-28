@@ -97,7 +97,7 @@ const CashIn = () => {
               className="w-full rounded-lg border-gray-300 bg-slate-200 p-4 pe-12 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent"
               type="number"
               name="pin"
-              min={10000}
+              min={10}
               max={99999}
               required
             />
